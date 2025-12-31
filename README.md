@@ -30,20 +30,14 @@ This project predicts prices using image features and geospatial data, leveragin
 
 ## Notebooks
 
-- **data.ipynb**: Data exploration and visualization.
 - **preprocessing.ipynb**: Data cleaning and preprocessing.
 - **model_training.ipynb**: Model definition, training, and evaluation.
 
 ## Model
 
 - The model uses satellite images and tabular data to predict prices.
-- Model architecture is documented in `Model Archi.drawio`.
 - Trained weights are saved in `price_prediction_cnn.pth`.
 
-## Data
-
-- Training and test data are in `data/train(1).csv` and `data/test2.csv`.
-- Image features are stored in `cnn_image_features_pytorch.csv` and `image_features.csv`.
 
 ## Static Maps Server
 
